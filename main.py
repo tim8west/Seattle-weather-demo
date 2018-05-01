@@ -16,8 +16,13 @@ weather_state = weather['consolidated_weather'][0]['weather_state_name']
 temp = str(
     weather['consolidated_weather'][0]['the_temp'])
 # Log
+<<<<<<< HEAD
 print 'location id: %s' % location_id
 print 'weather state: %s' % weather_state
+=======
+print('location id: %s' % location_id)
+print('weather state: %s' % weather_state)
+>>>>>>> cc530bf5cc7a6b46d626ff74db2bbd399f42c9cf
 print 'temp: %s' % temp
 
 # TODO(cnishina): Convert to functions and add testing.
