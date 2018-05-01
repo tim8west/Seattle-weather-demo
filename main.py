@@ -25,5 +25,10 @@ print('weather state: %s' % weather_state)
 >>>>>>> cc530bf5cc7a6b46d626ff74db2bbd399f42c9cf
 print 'temp: %s' % temp
 
+def get_temp():
+    return temp;
+
+def get_location_id():
+    return location_id;
 # TODO(cnishina): Convert to functions and add testing.
 # TODO(cnishina): Add option to write to file.
