@@ -19,4 +19,7 @@ python main.py # run the thing
 pytest test_main.py -v # run the tests
 
 ```
+<<<<<<< HEAD
 >>>>>>> d21b38b6ddaf32ae1338a5bd25a3fc1d9edcc701
+=======
+>>>>>>> eae31bcb8111386eed1f9b8c405d8adfb94d325a
